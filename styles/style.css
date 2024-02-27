@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    font-family: 'Merriweather';
+}
+
+/* --------------banner Section */
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin-top: 10px;
+    margin: 20px 40px 20px 40px;
+    border-radius: 16px;
+}
+
+.banner-title {
+    padding-top: 177px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-content {
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* -----------Offer section  */
+
+.offer-section {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#off {
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+    padding-bottom: 40px;
+}
+
+.offer-content {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+
+#new-year-image {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.offer-category {
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+/* Welcome to midnight party  */
+
+.midnight-party {
+    /* background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png'); */
+    background-image: linear-gradient(to right, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin: 20px 40px 20px 40px;
+    border-radius: 16px;
+    color: white;
+}
+
+.midnight-party-container {
+    width: 50%;
+    padding-top: 126px;
+    padding-left: 126px;
+
+}
+
+.midnight-party-title {
+    font-size: 64px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.midnight-party-content {
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 48px;
+}
+
+.midnight-party-button {
+    color: white;
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+/* ------------------Location Section  */
+
+.location-container {
+    height: 482px;
+    margin: 60px 40px 20px 40px;
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0));
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.location-button {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    border: 0;
+    background-color: red;
+    margin-top: 64px;
+}
+
+/* -------------------Coming Soon  */
+
+.coming-soon-section {
+    height: 482px;
+    margin: 10px 40px 20px 40px;
+    display: flex;
+}
+
+.left-title {
+    font-size: 24px;
+    font-weight: 400;
+    color: red;
+    padding-top: 104px;
+}
+
+#coming-soon {
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 22px;
+}
+
+.content {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    text-align: justify;
+    padding-bottom: 43px;
+}
+
+.ellipse-image {
+    border: 7px solid red;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+#year {
+    font-size: 48px;
+    font-weight: 700;
+    color: red;
+    padding-top: 112px;
+    padding-bottom: 15px;
+}
+
+.left {
+    padding-right: 70px;
+}
+
+.right {
+    padding-left: 70px;
+}
+
+
+
+/* -----------------------Holiday Sale  */
+.holiday-section {
+    margin: 120px 70px 20px 70px;
+    /* height: 970px; */
+}
+
+.holiday-text-part {
+    text-align: center;
+}
+
+#holiday-main-content {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.holiday-sale-title {
+    font-size: 72px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.holiday-sale-content {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+    padding-bottom: 64px;
+}
+
+.left-image {
+    width: 65%;
+}
+
+.right-images {
+    width: 35%;
+    background-image: url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    border-radius: 16px;
+}
+
+#right-image-one {
+
+    margin-top: 60px;
+    position: relative;
+    left: -150px;
+}
+
+.holiday-sale-images {
+
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    border-radius: 8px;
+}
+
+
+/* ------------------------Awesome Portfolio Section */
+
+.portfolio-section {
+    margin: 120px 70px 20px 70px;
+}
+
+#portfolio-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: red;
+}
+
+#portfolio-subtitle {
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 22px;
+}
+
+.portfolio-images {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.portfolio-image {
+    width: 360px;
+    height: 400px;
+}
+
+
+/* Subscribe Section  */
+
+.subscribe-section {
+    margin: 120px 70px 20px 70px;
+    height: 616px;
+    background-color: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    /* text-align: center; */
+}
+
+.subscribe-text-section {
+    /* width: 70%; */
+    text-align: center;
+    padding-top: 80px;
+}
+
+#subscribe-title {
+    font-size: 48px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 22px;
+}
+
+.subscribe-inputs {
+    display: flex;
+    gap: 0;
+    
+    justify-content: center;
+}
+
+.subscribe-input {
+    width: 40%;
+    height: 72px;
+    border-start-start-radius: 44px;
+    border-end-start-radius: 44px;
+    border: 0;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.subscribe-button {
+    width: 15%;
+    height: 78px;
+    border-start-end-radius: 44px;
+    border-end-end-radius: 44px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+}
+
+
+/* ----------------------footer section  */
+
+.footer{
+    height: 590px;
+    background-color: rgb(7, 2, 17);
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    width: 75%;
+    padding-left: 140px;
+}
+.first{
+    display: flex;
+    gap: 15px;
+}
+
+
+.liner{
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-left: 10%;
+    margin-top: 50px;
+    height: 1px;
+}
+
+.apps{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 75%;
+    padding-left: 140px;
+}
